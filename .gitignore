@@ -1,0 +1,51 @@
+# ---- 大文件压缩包（超过 GitHub 100MB 单文件上限）----
+*.rar
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.gz
+*.iso
+
+# ---- 编译 / 链接产物 ----
+*.o
+*.d
+*.obj
+*.lib
+*.a
+*.elf
+*.exe
+*.dll
+*.pyd
+*.so
+*.bin
+*.sized
+*.map
+*.dump
+*.dmp
+*.rsp
+*.ninja
+*.log
+
+# ---- 构建目录 ----
+build/
+Build/
+Build_workspace/
+out/
+Debug/
+Release/
+*.gnc
+*.gncx
+
+# ---- IDE / 系统 ----
+.vscode/
+.idea/
+*.user
+*.suo
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- 临时工作区 ----
+_work/
+desktop-organize.log
